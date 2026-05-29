@@ -1,4 +1,4 @@
-🧩 Demetrius Kattes — Senior SDET / Backend QA Engineer
+## 🧩 Demetrius Kattes — Senior SDET / Backend QA Engineer
 API Automation • Microservices • CI/CD • Cloud (AWS/Azure) • Playwright • Cypress • Python • Systems QA
 
 I build real automation frameworks, real pipelines, and real backend test systems.
@@ -6,7 +6,7 @@ My work spans API testing, microservices, UI automation, data validation, health
 
 This portfolio is a living engineering lab — showing what I’ve built, what I’m building, and what’s coming next.
 
-🚀 Featured Projects (Finished)
+## 🚀 Featured Projects (Finished)
 1. warehouse_api
 Backend API automation • Python • Docker • CI/CD  
 A full backend testing framework with containerized services, schema validation, and CI pipelines.
@@ -20,7 +20,7 @@ Modern UI test suite with API+UI hybrid flows, parallel runs, and clean test des
 UI regression suite • Tagging • GitHub Actions  
 Fast, maintainable Cypress tests with smoke/regression tagging and CI integration.
 
-🏗️ Under Construction (Actively Building)
+## 🏗️ Under Construction (Actively Building)
 4. healthcare-api-testing
 Healthcare domain • Claims/Patients API • HIPAA‑aware testing  
 A realistic healthcare API testing project covering roles, validation, auditability, and data rules.
@@ -50,7 +50,7 @@ A reusable data validation engine for verifying transformations, migrations, and
 k6 or Locust • Load testing • CI integration  
 Performance tests for warehouse_api with dashboards and threshold‑based pass/fail.
 
-🧠 What This Portfolio Shows
+## 🧠 What This Portfolio Shows
 Backend/API Expertise
 Python API frameworks
 
@@ -100,7 +100,7 @@ ETL verification
 
 Reporting pipelines
 
-📌 Why This Portfolio Exists
+## 📌 Why This Portfolio Exists
 Recruiters and hiring teams often say:
 
 “We need to see real automation, real pipelines, real cloud integration.”
@@ -123,6 +123,6 @@ It’s honest.
 It’s transparent.
 It’s senior.
 
-📫 Contact
+## 📫 Contact
 LinkedIn: linkedin.com/in/demetrius-kattes-22a69111
 GitHub: github.com/dlkattes33
