@@ -22,9 +22,9 @@
 | # | Repository | Stack | What It Proves |
 |---|-----------|-------|----------------|
 | 4 | playwright-cucumber | TypeScript • Playwright • Cucumber BDD | BDD-style test automation using Gherkin scenarios, step definitions, and Playwright execution. |
-| 5 | healthcare-api-testing | Python • REST • HIPAA-aware design | Realistic healthcare API testing: roles, patient/claims validation, auditability, and data rules. |
-| 6 | LTI-mock-project | Python/Node • LTI 1.3 • EdTech | Mock LTI service simulating EdTech platform integrations — OAuth 2.0 flows, tool launch validation, API contract verification. |
-| 7 | ghostinspector-ci-integration | GhostInspector • GitHub Actions | Pipeline that triggers GhostInspector suites on deploy and fails on test failures. |
+| 5 | lti-mock-project | Python/Node • LTI 1.3 • EdTech | Mock LTI service simulating EdTech platform integrations — OAuth 2.0 flows, tool launch validation, API contract verification. |
+| 6 | ghostinspector-ci-integration | GhostInspector • GitHub Actions | Pipeline that triggers GhostInspector suites on deploy and fails on test failures. |
+| 7 | healthcare-api-testing | Python • REST • HIPAA-aware design | Realistic healthcare API testing: roles, patient/claims validation, auditability, and data rules. |
 | 8 | aws-pipeline-lab | AWS CodePipeline • CodeBuild • ECS | Cloud pipeline that builds, deploys, and runs automated tests against a live environment with test-stage gating. |
 | 9 | azure-devops-pipeline-demo | Azure DevOps YAML • Multi-cloud | Azure pipelines running Playwright/API tests with artifact publishing and multi-stage approvals. |
 
@@ -74,11 +74,11 @@
 
 | Q2 2026 *(Now)* | Q3 2026 | Q4 2026 |
 |-----------------|---------|---------|
-| ✅ warehouse_api | 🔧 LTI-mock-project | 📋 microservices-contract-testing |
-| ✅ playwright-demo | 🔧 playwright-cucumber | 📋 data-validation-framework |
-| ✅ cypress-demo | 🔧 healthcare-api-testing | 📋 performance-testing-suite |
-| 🔧 ghostinspector-ci-integration | 🔧 aws-pipeline-lab | |
-| | 🔧 azure-devops-pipeline-demo | |
+| ✅ warehouse_api | 🔧 ghostinspector-ci-integration | 📋 microservices-contract-testing |
+| ✅ playwright-demo | 🔧 healthcare-api-testing | 📋 data-validation-framework |
+| ✅ cypress-demo | 🔧 aws-pipeline-lab | 📋 performance-testing-suite |
+| 🔧 playwright-cucumber | 🔧 azure-devops-pipeline-demo | |
+| 🔧 lti-mock-project | | |
 
 ✅ Published &nbsp;&nbsp; 🔧 In active development &nbsp;&nbsp; 📋 Planned
 
