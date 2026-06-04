@@ -21,22 +21,22 @@
 
 | # | Repository | Stack | What It Proves |
 |---|-----------|-------|----------------|
-| 4 | playwright-cucumber | TypeScript • Playwright • Cucumber BDD | BDD-style test automation using Gherkin scenarios, step definitions, and Playwright execution. Demonstrates readable, stakeholder-friendly test design alongside advanced browser automation. |
-| 5 | healthcare-api-testing | Python • REST • HIPAA-aware design | Realistic healthcare API testing: roles, patient/claims validation, auditability, and data rules. Targets healthcare and regulated-industry QA roles. |
-| 6 | LTI-mock-project | Python/Node • LTI 1.3 • EdTech | A mock LTI (Learning Tools Interoperability) service simulating EdTech platform integrations. Covers OAuth 2.0 flows, tool launch validation, and API contract verification for education technology environments. |
-| 7 | ghostinspector-ci-integration | GhostInspector • GitHub Actions | Pipeline that triggers GhostInspector suites on deploy, fails on test failures, and publishes results — plug-and-play visual regression CI. |
-| 8 | aws-pipeline-lab | AWS CodePipeline • CodeBuild • ECS/EB | Cloud pipeline that builds, deploys, and runs automated tests against a live environment with test-stage gating. |
-| 9 | azure-devops-pipeline-demo | Azure DevOps YAML • Multi-cloud QA | Azure pipelines running Playwright/API tests with artifact publishing, environment-scoped secrets, and multi-stage approvals. |
+| 4 | playwright-cucumber | TypeScript • Playwright • Cucumber BDD | BDD-style test automation using Gherkin scenarios, step definitions, and Playwright execution. |
+| 5 | healthcare-api-testing | Python • REST • HIPAA-aware design | Realistic healthcare API testing: roles, patient/claims validation, auditability, and data rules. |
+| 6 | LTI-mock-project | Python/Node • LTI 1.3 • EdTech | Mock LTI service simulating EdTech platform integrations — OAuth 2.0 flows, tool launch validation, API contract verification. |
+| 7 | ghostinspector-ci-integration | GhostInspector • GitHub Actions | Pipeline that triggers GhostInspector suites on deploy and fails on test failures. |
+| 8 | aws-pipeline-lab | AWS CodePipeline • CodeBuild • ECS | Cloud pipeline that builds, deploys, and runs automated tests against a live environment with test-stage gating. |
+| 9 | azure-devops-pipeline-demo | Azure DevOps YAML • Multi-cloud | Azure pipelines running Playwright/API tests with artifact publishing and multi-stage approvals. |
 
 ---
 
-## 🔮 Coming Next — Roadmap (H2 2026)
+## 🔮 Coming Next
 
 | # | Repository | Stack | Purpose |
 |---|-----------|-------|---------|
-| 10 | microservices-contract-testing | Pact • Schemathesis | Consumer/provider contract testing to prevent breaking changes and enforce API guarantees across distributed services. |
-| 11 | data-validation-framework | Python • SQL • ETL | Reusable engine for verifying data transformations, migrations, and reporting pipelines — targeting data-adjacent SDET roles. |
-| 12 | performance-testing-suite | k6 or Locust • CI integration | Load and performance tests for warehouse_api with dashboards and threshold-based pass/fail gates. |
+| 10 | microservices-contract-testing | Pact • Schemathesis | Consumer/provider contract testing to prevent breaking changes across distributed services. |
+| 11 | data-validation-framework | Python • SQL • ETL | Reusable engine for verifying data transformations, migrations, and reporting pipelines. |
+| 12 | performance-testing-suite | k6 or Locust • CI | Load and performance tests with dashboards and threshold-based pass/fail gates. |
 
 ---
 
@@ -70,30 +70,17 @@
 
 ---
 
-## 📍 2026 Transition Year — My Engineering Priorities
-
-This is a deliberate **build-in-public** year. After years of hands-on SDET work, I'm using 2026 to:
-
-1. **Fill the portfolio gaps** — Every major QA engineering discipline represented with real, runnable code
-2. **Target high-value domains** — Healthcare, EdTech, cloud-native systems, and data pipelines where senior QA skills command the most leverage
-3. **Demonstrate depth across the stack** — From BDD/UI all the way to CI/CD infrastructure and contract testing
-4. **Build frameworks, not just scripts** — Every project is designed to be scalable, maintainable, and interview-ready
-
-> The goal is simple: when a hiring team or client looks at this GitHub, they see a senior engineer who has already solved the problems they're trying to solve.
-
----
-
 ## 📊 Portfolio Roadmap at a Glance
 
-Q2 2026 (Now)        Q3 2026              Q4 2026
-─────────────────    ─────────────────    ─────────────────
-✅ warehouse_api     🔧 LTI-mock-project  📋 microservices-
-✅ playwright-demo   🔧 playwright-cucum.    contract-testing
-✅ cypress-demo      🔧 healthcare-api    📋 data-validation-
-🔧 ghostinspector    🔧 aws-pipeline-lab     framework
-ci-integration    🔧 azure-devops-     📋 performance-
-pipeline-demo        testing-suite
+| Q2 2026 *(Now)* | Q3 2026 | Q4 2026 |
+|-----------------|---------|---------|
+| ✅ warehouse_api | 🔧 LTI-mock-project | 📋 microservices-contract-testing |
+| ✅ playwright-demo | 🔧 playwright-cucumber | 📋 data-validation-framework |
+| ✅ cypress-demo | 🔧 healthcare-api-testing | 📋 performance-testing-suite |
+| 🔧 ghostinspector-ci-integration | 🔧 aws-pipeline-lab | |
+| | 🔧 azure-devops-pipeline-demo | |
 
+✅ Published &nbsp;&nbsp; 🔧 In active development &nbsp;&nbsp; 📋 Planned
 
 ---
 
@@ -104,4 +91,4 @@ pipeline-demo        testing-suite
 
 ---
 
-*This portfolio is actively maintained. Repos marked 🔧 are in active development and updated regularly.*
+*This portfolio is actively maintained and updated regularly.*
