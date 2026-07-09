@@ -37,7 +37,8 @@
 | 10 | microservices-contract-testing | Pact • Schemathesis | Consumer/provider contract testing to prevent breaking changes across distributed services. |
 | 11 | data-validation-framework | Python • SQL • ETL | Reusable engine for verifying data transformations, migrations, and reporting pipelines. |
 | 12 | performance-testing-suite | k6 or Locust • CI | Load and performance tests with dashboards and threshold-based pass/fail gates. |
-
+| 13 | appium-mobile-demo | Appium • Python/TypeScript • Android/iOS | Mobile automation framework demonstrating native app testing, device actions, gestures, and hybrid API/UI flows. Includes page objects, fixtures, and CI integration. |
+| 14 | vibium-demo | Vibium • WebDriver BiDi • Python/TS | Modern browser automation using WebDriver BiDi and AI‑native tooling. Demonstrates E2E tests, screenshots, accessibility checks, and fast zero‑config execution. |
 ---
 
 ## 🧠 What This Portfolio Demonstrates
